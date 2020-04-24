@@ -1,0 +1,25 @@
+<app-mapa-local
+  [nome]="infoLocal.nome"
+  [latlng]="infoLocal.latlng"
+  *ngIf="infoLocal">
+</app-mapa-local>
+
+<div class="div-botao-voltar">
+  <button
+    type="button"
+    class="btn btn-secondary"
+    (click)="voltar()">
+    <span class="oi oi-arrow-thick-left"></span>
+  </button>
+</div>
+
+<app-modal-descricao-local
+  [nome]="infoLocal.nome"
+  [descricao]="infoLocal.descricao"
+  *ngIf="infoLocal">
+</app-modal-descricao-local>
+
+<app-galeria
+  [imagens]="infoLocal.imagens"
+  *ngIf="infoLocal">
+</app-galeria>

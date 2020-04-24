@@ -1,27 +1,25 @@
-# AngularMapas
+# Angular Mapas
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
+Código fonte do projeto desenvolvido na série Angular VS React disponível no YouTube, encontrado [AQUI](https://www.youtube.com/watch?v=UT6M8nokyTY&list=PL_J0pcBTAsJ6IGd2a444u4Mum0uXNkb6l)
 
-## Development server
+## Aprenda Angular e muito mais
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Conheca o meu catálogo de cursos sobre Angular, React, Java, Docker e muitos outros acessando [KazaleIT](http://kazale.com).
 
-## Code scaffolding
+## Requisitos para executar a aplicação
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Certifique-se de ter instalado o NodeJS na versão 10 ou superior para executar a aplicação.
+
+## Baixando a aplicação
+
+Clique no botão verde "Clone or Download" e depois em "Download ZIP" para fazer o download do código fonte.
+
+Acesse o diretório do projeto no terminal, e execute o comando `npm install`. Este comando somente será necessário ser executado uma única vez.
+
+## Executando a aplicação
+
+Execute `ng serve` para iniciar o servidor. Navegue até `http://localhost:4200/` para visualizar a aplicação.
 
 ## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Execute `ng build --prod` para gerar os arquivos finais do projeto. Os arquivos estarão disponíveis no diretório `dist/`.
